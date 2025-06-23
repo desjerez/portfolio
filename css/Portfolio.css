@@ -270,6 +270,19 @@ section {
     font-weight: 700;
     font-size: 30px;
     line-height: 0.1;
+    text-align: ;
+}
+.section-border{
+    height: 4px;
+    width: 20px;
+    background-color: #cb22c8;
+    margin-inline: auto;
+}
+
+.section-text{
+    text-align: center;
+    width: 55%;
+    margin-inline: auto;
 }
 
 .about__details {
