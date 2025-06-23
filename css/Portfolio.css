@@ -294,8 +294,8 @@ section {
 
 .about__details {
     display: flex;
-    flex-direction: row;
-    gap: 1rem;
+    flex-direction: column;
+    gap: 5rem;
 }
 .about__details row {
     display: flex;
