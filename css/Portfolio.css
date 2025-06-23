@@ -286,29 +286,10 @@ section {
 }
 
 
-.about__details {
+.about__details-col {
     display: flex;
     flex-direction: column;
     gap: 1.2rem;
-    margin-top: 2rem;
-    width: 100%;
-}
-
-
-.about__details-row {
-    display: flex;
-    flex-direction: row;
-    gap: 5rem;
-    width: 1%;
-}
-.label {
-    
-    font-weight: 600;
-    min-width: 110px;
-    
-}
-.value {
-    font-weight: 400;
 }
 
 @media screen and (max-width: 900px){
