@@ -291,6 +291,11 @@ section {
     flex-direction: column;
     gap: 1.2rem;
 }
+
+.about__details-col:first-child::after {
+    content: ":";
+    margin-right: 6px;
+}
 @media screen and (max-width: 900px){
     .about__container {
         
