@@ -292,10 +292,25 @@ section {
     gap: 1.2rem;
 }
 
-.about__details-col:first-child span::after {
-    content: ":";
-    margin-right: 6px;
+.about__details {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
 }
+.about__details row {
+    display: flex;
+    gap: 0.5rem;
+    flex-wrap: wrap;
+}
+.label {
+    font-weight: 600;
+    min-width: 140px;
+    display: inline-block;
+}
+.value {
+    color: #444;
+}
+
 @media screen and (max-width: 900px){
     .about__container {
         
