@@ -292,7 +292,7 @@ section {
     gap: 1.2rem;
 }
 
-.about__details-col:first-child::after {
+.about__details-col:first-child span::after {
     content: ":";
     margin-right: 6px;
 }
