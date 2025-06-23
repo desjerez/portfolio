@@ -299,7 +299,7 @@ section {
 }
 .about__details row {
     display: flex;
-    gap: 0.5rem;
+    gap: 10rem;
     flex-wrap: wrap;
 }
 .label {
