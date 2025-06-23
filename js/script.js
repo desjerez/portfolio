@@ -7,7 +7,7 @@ menu.addEventListener("click", () => {
 });
 
 var typed = new Typed(".auto-type", {
-    strings: ["Destiny Jerez", "BS Computer Science", "MS Cybersecurity", "Seeking internship opportunity"],
+    strings: ["College Student", "BS Computer Science", "MS Cybersecurity", "Seeking internship opportunity"],
     typeSpeed: 70,
     backSpeed: 70,
     loop: true,
