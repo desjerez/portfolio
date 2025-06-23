@@ -295,20 +295,28 @@ section {
 .about__details {
     display: flex;
     flex-direction: column;
-    gap: 5rem;
+    gap: 1rem;
 }
-.about__details row {
+.about__details-row {
     display: flex;
-    gap: 10rem;
+    gap: 1.2rem;
+    margin-block: 2rem 3rem;
+}
+
+.about__details-row {
+    display: flex;
     flex-wrap: wrap;
+    gap: 1rem;
+    align-items: center;
 }
 .label {
     font-weight: 600;
-    min-width: 140px;
+    min-width: 130px;
     display: inline-block;
 }
 .value {
-    color: #444;
+    color: #333;
+    font-weight: 400;
 }
 
 @media screen and (max-width: 900px){
